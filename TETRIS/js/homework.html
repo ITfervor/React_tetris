@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <script>
+         var str = "CGCCGDKSKDGCCGCCGDKDGCCGDS";
+        
+       /*   let idx = str.indexOf("GCCG");
+         console.log("1 : " + idx);
+       
+         idx = str.indexof("GCCG", idx + 1);
+         console.log("2 : " + str.indexOf("GCCG",idx));
+
+         idx = str.indexof("GCCG", idx + 1);
+        console.log(" : " + str.indexOf("GCCG",idx)); */
+
+        
+         for(n = 0; n < 21; n++){
+            var idx = str.indexOf("GCCG", n); 
+            document.writeln(str.indexOf('GCCG', n ));
+                if( idx < 0) break;
+          
+            } 
+
+       /*   
+       var str = 'CGCCGDKSKDGCCGCCGDKDGCCGDS';
+        var searchvalue = 'GCCG'; 
+ 
+        var pos = 0;
+            while (true) {
+                let foundPos = str.indexOf(searchvalue, pos);
+                if (foundPos < 0 ) break;
+            
+                document.writeln( foundPos );
+                pos = foundPos + 1; 
+            } 
+ */
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
